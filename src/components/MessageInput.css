@@ -1,0 +1,65 @@
+.message-input {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 800px; /* Set a max-width for the entire container */
+  margin: 0 auto; /* Center the container */
+}
+
+.message-input input {
+  flex: 1;
+  height: 40px;
+  padding: 10px;
+  padding-left: 50px;
+  border: 1px solid #ccc;
+  border-radius: 50px;
+  background-color:#f4f4f4;
+  border: none;
+  font-size: 16px;
+}
+
+.send-button {
+  position: absolute;
+  right: 16px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #d7d7d7;
+}
+
+.send-button.active {
+  background-color: black;
+}
+
+.send-button.active:hover {
+  background-color: rgb(49, 49, 49);
+}
+
+.paperclip{
+  position: absolute;
+  left: 16px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  display: flex;
+  rotate: -45deg;
+  cursor: pointer;
+}
+
+.paperclip i{
+  font-size: 25px;
+}  
+.message-input input:focus {
+  outline: none;
+  border: none;
+}

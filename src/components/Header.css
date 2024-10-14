@@ -1,0 +1,55 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  color: rgb(43, 40, 40);
+}
+
+.left-icons {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.newchat-icon {
+  height: 30px;
+  width: 36px;
+  margin-bottom: 3px;
+  margin-left: 0.7rem;
+}
+.sidebar-icon {
+  cursor: pointer;
+  font-weight: 500;
+  width: 50px;
+}
+.chatgpt-auto{
+  display: flex;
+  align-items: center;
+}
+.chatgpt-auto h2{
+  font-size: 20px;
+  color: #7C7C7C;
+  margin-left: 2rem;
+}
+.downarrow-icon{
+  height: 20px;
+  width: 36px;
+  margin-left: 5px;
+}
+.right-icon{
+  margin-right: 1rem;
+  display: flex;
+  align-items: center;
+}
+.profile{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color:#1ABC9C;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
